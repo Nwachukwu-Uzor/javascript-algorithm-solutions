@@ -1,6 +1,6 @@
 
 /**
- * @return returns the middle character of the word
+ * @return {string} returns the middle character of the word
  * @param {string} s the word as an input
  */
 

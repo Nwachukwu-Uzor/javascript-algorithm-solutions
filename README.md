@@ -7,6 +7,7 @@ This repository holds a collections of solutions to algorithm problems done in j
 - [Duplicate Encode](#duplicate-encoder)
 - [Get Middle](#getMiddle)
 - [Digital Root](#digitalRoot)
+- [Open or Senior](#openOrSenior)
   <br><br>
 
 ## Details
@@ -22,8 +23,12 @@ The goal of this exercise is to convert a string to a new string where each char
 #### Examples
 
 ```
-    "din" => "(((" "recede" => "()()()" "Success" => ")())())" "(( @" => "))(("
+    "din" => "((("
+    "recede" => "()()()"
+    "Success" => ")())())"
+    "(( @" => "))(("
 ```
+
 <br>
 
 ### Notes <br>
@@ -35,7 +40,10 @@ Assertion messages may be unclear about what they display in some languages. If 
 
 <div id="getMiddle">
 
-2.  [Get Middle](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript) (6kyu) #### Description
+2.  [Get Middle](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript) (6kyu)
+
+    #### Description
+
     You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.<br><br>
 
     #### Examples
@@ -57,7 +65,7 @@ Assertion messages may be unclear about what they display in some languages. If 
 
     The middle character(s) of the word represented as a string.
 
-    </div>
+</div>
 
 <div id="digitalRoot">
 
@@ -78,4 +86,31 @@ Assertion messages may be unclear about what they display in some languages. If 
 
     <br>
 
-    </div>
+</div>
+
+<div id="openOrSenior">
+
+2.  [open or Senior](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript) (7kyu)
+
+    #### Description
+
+    The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.<br>To be a senior, a member must be at least 55 years old and have a handicap greater than 7. In this croquet club, handicaps range from -2 to +26; the better the player the lower the handicap..<br><br>
+
+    #### Examples
+
+    ```
+        input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
+       output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+    ```
+
+    <br>
+
+    ### Input <br>
+
+    Input will consist of a list of pairs. Each pair contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.<br><br>
+
+    ### Output <br>
+
+    Output will consist of a list of string values stating whether the respective member is to be placed in the senior or open category.
+
+</div>
