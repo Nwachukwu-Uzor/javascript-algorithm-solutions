@@ -1,6 +1,6 @@
 const chai = require("chai");
 const assert = chai.assert;
-const { duplicateEncode } = require("../algorithms/duplicateEncode.js");
+const duplicateEncode = require("../algorithms/duplicateEncode.js");
 
 describe("Duplicate Encoder", () => {
   it("Testing for fixed tests", () => {

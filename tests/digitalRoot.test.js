@@ -9,5 +9,3 @@ describe("Tests", () => {
     assert.strictEqual( digitalRoot(456), 6 )
   });
 });
-
-// 456 -> 15 -> 6

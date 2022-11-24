@@ -1,3 +1,9 @@
+
+/**
+ * @return returns the middle character of the word
+ * @param {string} s the word as an input
+ */
+
 function getMiddle(s) {
   const wordLength = s.length;
   const mid = Math.ceil(wordLength / 2);
