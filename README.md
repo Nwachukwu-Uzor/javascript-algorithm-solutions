@@ -21,7 +21,9 @@ The goal of this exercise is to convert a string to a new string where each char
 
 #### Examples
 
-` "din" => "(((" "recede" => "()()()" "Success" => ")())())" "(( @" => "))((" `
+```
+    "din" => "(((" "recede" => "()()()" "Success" => ")())())" "(( @" => "))(("
+```
 <br>
 
 ### Notes <br>
@@ -38,7 +40,13 @@ Assertion messages may be unclear about what they display in some languages. If 
 
     #### Examples
 
-    `getMiddle("test") should return "es" getMiddle("testing") should return "t" getMiddle("middle") should return "dd" getMiddle("A") should return "A"`
+    ```
+        getMiddle("test") should return "es"
+        getMiddle("testing") should return "t"
+        getMiddle("middle") should return "dd"
+        getMiddle("A") should return "A"
+    ```
+
     <br>
 
     ### Input <br>
