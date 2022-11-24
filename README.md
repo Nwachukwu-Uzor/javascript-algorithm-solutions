@@ -77,12 +77,12 @@ Assertion messages may be unclear about what they display in some languages. If 
 
     #### Examples
 
-     ```   
-        16  -->  1 + 6 = 7
-        942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
-        132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
-        493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
-    ```   
+    ```
+       16  -->  1 + 6 = 7
+       942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
+       132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
+       493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
+    ```
 
     <br>
 
@@ -90,7 +90,7 @@ Assertion messages may be unclear about what they display in some languages. If 
 
 <div id="openOrSenior">
 
-2.  [open or Senior](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript) (7kyu)
+4.  [open or Senior](https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript) (7kyu)
 
     #### Description
 
@@ -100,7 +100,7 @@ Assertion messages may be unclear about what they display in some languages. If 
 
     ```
         input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
-       output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
+        output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
     ```
 
     <br>
