@@ -8,6 +8,7 @@ This repository holds a collections of solutions to algorithm problems done in j
 - [Get Middle](#getMiddle)
 - [Digital Root](#digitalRoot)
 - [Open or Senior](#openOrSenior)
+- [Move Zeros](#moveZeros)
   <br><br>
 
 ## Details
@@ -112,5 +113,22 @@ Assertion messages may be unclear about what they display in some languages. If 
     ### Output <br>
 
     Output will consist of a list of string values stating whether the respective member is to be placed in the senior or open category.
+
+</div>
+<div id="moveZeros">
+
+5.  [Move Zeros](https://www.codewars.com/kata/52597aa56021e91c93000cb0/train/javascript) (5kyu)
+
+    #### Description
+
+    Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.<br><br>
+
+    #### Examples
+
+    ```
+        moveZeros([false,1,0,1,2,0,1,3,"a"]) // returns[false,1,1,2,1,3,"a",0,0]
+    ```
+
+    <br>
 
 </div>
