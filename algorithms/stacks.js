@@ -4,7 +4,7 @@ class Stack {
     this.storage.push(data);
   }
   push(data) {
-    this.storage.push(data);
+    this.storage.unshift(data);
     return this.storage;
   }
   pop() {
@@ -16,7 +16,7 @@ class Stack {
     if (this.storage.length === 0) {
       throw new Error("Stack is empty");
     }
-    return this.storage[this.storage.length - 1];
+    return this.storage[0];
   }
   lookup(index) {
     if(index > this.storage.length - 1) {

@@ -88,23 +88,31 @@ class LinkedList {
   getTail() {
     return this.tail;
   }
+
+  reverse() {
+    let first = this.head;
+    let second = first.next;
+    this.tail = first;
+    while (second) {
+      let third = second.next;
+      second.next = first;
+      first = second;
+      second = third;
+    }
+    this.head = first;
+    this.tail.next = null;
+  }
 }
 
-class StackWithLinkedList {
-  constructor(data) {
-    this.storage = new LinkedList(data);
-  }
-
-  push(item) {
-    this.storage.append(item);
-    return this.storage.length;
-  }
-
-  pop() {
-    const lastItem = this.storage.getTail();
-    this.storage.delete(this.storage.length - 1);
-    return lastItem.data;
-  }
-
-  
-}
+const linkedList = new LinkedList(3);
+linkedList.append(4);
+linkedList.append(12);
+linkedList.append(11);
+linkedList.append(13);
+linkedList.append(18);
+linkedList.prepend(20);
+console.log(linkedList.transverse());
+linkedList.reverse()
+linkedList.insert(3, 2)
+console.log(linkedList.transverse());
+console.log(linkedList.constructor.name)
